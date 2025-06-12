@@ -1,0 +1,67 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  /* padding-bottom: 60px; */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper .swiper-pagination {
+  text-align: right;
+}
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  width: 56px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #fff;
+  bottom: 0;
+}
+
+.mySwiper .swiper-button-next {
+  right: 60px;
+}
+
+.mySwiper .swiper-button-prev {
+  left: auto;
+  right: 130px;
+}
+
+.mySwiper .swiper-button-next::after,
+.mySwiper .swiper-button-prev::after {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="red"><path fill-rule="evenodd" d="M15.6729 5.45044C14.8919 6.23143 14.892 7.49751 15.6729 8.27856L18.3955 11.0002H1V13.0002H17.9502L15.6357 15.3147C14.855 16.0957 14.855 17.3618 15.6357 18.1428L22 11.7786L21.3301 11.1077L15.6729 5.45044Z" clip-rule="evenodd"/></svg>');
+  background-repeat: no-repeat;
+  color: #dd2a00;
+}
+
+.mySwiper .swiper-button-prev::after {
+  transform: rotate(180deg);
+}
+
+.mySwiper .swiper-pagination-fraction {
+  bottom: auto;
+  top: 50px;
+  right: 200px;
+  left: auto;
+}
