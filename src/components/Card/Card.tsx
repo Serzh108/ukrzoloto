@@ -1,4 +1,5 @@
 import type { FC } from 'react';
+import type { CardProps } from '../../types';
 import {
   ButtonBuy,
   ButtonLike,
@@ -14,29 +15,13 @@ import {
   PromoCode,
 } from './styles';
 
-interface ICard {
-  promo: string;
-  image: string;
-  order: string;
-  name: string;
-  discount: string;
-  discount_amount: string;
-  price: string;
-}
-
-type CardProps = {
-  data: ICard;
-};
-
 const Card: FC<CardProps> = ({ data }) => {
   const { promo, image, order, name, discount, discount_amount, price } = data;
 
   return (
     <CardWrapper>
-      {/* <PromoCode>-60% з ПРОМОкодом</PromoCode> */}
       <PromoCode>{promo}</PromoCode>
       <ImgBlock>
-        {/* <img src={'/public/assets/images/image1.jpg'} alt="image1" /> */}
         <img src={image} alt="image1" />
         <div>Відео</div>
       </ImgBlock>
@@ -53,23 +38,15 @@ const Card: FC<CardProps> = ({ data }) => {
               fill="#5D5FEF"
             />
           </svg>
-          {/* Під замовлення (до 2 тижнів) */}
           {order}
         </OrderBlock>
-        <ProductName>
-          {/* Колье-трансформер c сердоликом, цитрином и родолитом Тоффи на aaaaaaaa
-          ssss ddddddd fff gggg rrrg ... */}
-          {name}
-        </ProductName>
+        <ProductName>{name}</ProductName>
         <PriceBlock>
           <div>
             <Discount>
               <div>{discount}</div>
-              {/* <div>-52%</div> */}
-              {/* <div>1 104 432</div> */}
               <div>{discount_amount}</div>
             </Discount>
-            {/* <Price>3 637 432 грн</Price> */}
             <Price>{price} грн</Price>
           </div>
           <ButtonWrapper>
