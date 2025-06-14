@@ -27,7 +27,6 @@ const Footer = () => {
         {MENU_DATA &&
           MENU_DATA.length > 0 &&
           MENU_DATA.map(el => <SubMenu key={el.id} data={el} />)}
-        {/* <SubMenu data={MENU_DATA[0]} /> */}
       </FooterMenuWrapper>
       <Contacts>
         <div>

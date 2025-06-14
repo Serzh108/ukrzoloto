@@ -4,11 +4,9 @@ export const FooterWrapper = styled.div`
   display: flex;
   justify-content: start;
   align-items: flex-start;
-  /* flex-wrap: wrap; */
   gap: 40px;
   width: 100%;   
   max-width: 1600px;
-  /* height: 376px; */
   padding: 32px 0;
   margin: 0 auto;
   color: #000; 
@@ -41,16 +39,10 @@ export const FooterMenuWrapper = styled.div`
   flex-wrap: wrap;
   gap: 24px 80px;
   width: 100%;   
-  /* max-width: 1600px; */
   height: 312px;
-  /*padding: 32px 0;
-  margin: 0 auto;
-  color: #000; 
-  background-color: #fff; */
 `;
 
 export const SubmenuWrapper = styled.div`
-  /* margin-bottom: 24px; */
   & div {
       display: flex;
       justify-content: space-between;

@@ -49,7 +49,7 @@
   display: block;
   width: 24px;
   height: 24px;
-  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="red"><path fill-rule="evenodd" d="M15.6729 5.45044C14.8919 6.23143 14.892 7.49751 15.6729 8.27856L18.3955 11.0002H1V13.0002H17.9502L15.6357 15.3147C14.855 16.0957 14.855 17.3618 15.6357 18.1428L22 11.7786L21.3301 11.1077L15.6729 5.45044Z" clip-rule="evenodd"/></svg>');
+  background-image: url('/assets/icons/icon-arrow-right.svg');
   background-repeat: no-repeat;
   color: #dd2a00;
 }

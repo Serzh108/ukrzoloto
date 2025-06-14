@@ -7,7 +7,6 @@ export const HeaderWrapper = styled.div`
   align-items: center;
   width: 100%;
   margin-bottom: 16px; 
-  /* background-color: #F2F2F2; */
 `;
 
 export const HeaderDiscount = styled.div`
@@ -79,7 +78,6 @@ export const HeaderInfoWrapper = styled.div`
   height: 64px;
   gap: 24px;
   padding-left: 110px;
-  /* margin-bottom: 16px; */
   background-color: #DD2A00; 
 `;
 
@@ -134,7 +132,7 @@ export const Search = styled.div`
   display: flex;
   justify-content: start;
   align-items: center;
- /* */
+ 
   & input {
     padding: 12px 8px 12px 16px;
     width: 690px;

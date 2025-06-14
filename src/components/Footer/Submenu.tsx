@@ -9,7 +9,6 @@ const SubMenu: FC<MenuProps> = ({ data }) => {
   return (
     <SubmenuWrapper>
       <div onClick={() => setIsOpen(prev => !prev)}>
-        {/* <p>О нас</p> */}
         <p>{title}</p>
         <ControlArrow
           src={downBlackIcon}
