@@ -11,3 +11,13 @@ export interface ICard {
 export type CardProps = {
   data: ICard;
 };
+
+export interface IMenu {
+  id: string;
+  title: string;
+  items: string[];
+}
+
+export type MenuProps = {
+  data: IMenu;
+};

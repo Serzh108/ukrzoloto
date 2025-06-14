@@ -1,7 +1,6 @@
 import searchIcon from '/assets/icons/icon-search.svg';
 import downIcon from '/assets/icons/icon-down.svg';
 import downWhiteIcon from '/assets/icons/icon-down-white.svg';
-import profileIcon from '/assets/icons/icon-profile.svg';
 import heartIcon from '/assets/icons/icon-heart.svg';
 import viewIcon from '/assets/icons/icon-view.svg';
 import basketIcon from '/assets/icons/icon-basket.svg';
@@ -26,10 +25,7 @@ const HeaderInfo = () => {
         <img src={searchIcon} width={24} alt="search" />
       </Search>
       <Cabinet>
-        <button>
-          {/* <img src={profileIcon} width={24} alt="profile" /> */}
-          Войти в кабинет
-        </button>
+        <button>Войти в кабинет</button>
         <div></div>
         <button>
           <img src={heartIcon} width={24} alt="heart" />
