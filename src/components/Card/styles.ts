@@ -54,14 +54,13 @@ export const ImgBlock = styled.div`
 
     background: rgba(43, 39, 37, 0.24);
     border-radius: 16px;
-    background-image: url('/public/assets/icons/icon-play-video.svg');
+    background-image: url('/assets/icons/icon-play-video.svg');
     background-repeat: no-repeat;
     background-position-x: 6px;
     background-position-y: center;
     cursor: pointer;
   }
 `;
-// icon - play - video
 
 export const InfoBlock = styled.div`
   display: flex;
@@ -74,7 +73,6 @@ export const InfoBlock = styled.div`
   font-size: 10px;
   line-height: 10px;
   font-family: 'Helvetica'; 
-  /* background: linear-gradient(90deg, rgba(0, 0, 0, 0.08) 0%,rgba(0, 0, 0, 0.5) 100%),rgb(145, 237, 165); */
 `;
 
 export const OrderBlock = styled.div`
@@ -82,15 +80,19 @@ export const OrderBlock = styled.div`
   justify-content: start;
   align-items: center;
   gap: 4px;
+  padding-left: 20px;
   font-weight: 550;
   font-size: 12px;
   line-height: 16px;
   color: #5D5FEF; 
+  background-image: url('/assets/icons/icon-clock.svg');
+  background-repeat: no-repeat;
+  background-position:  0 center;
 `;
 
 export const ProductName = styled.p`
   display: -webkit-box;
-  -webkit-line-clamp: 2;       /* скільки рядків залишити */
+  -webkit-line-clamp: 2;       
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -174,7 +176,7 @@ export const ButtonLike = styled.button`
   border: none;
   border-bottom-right-radius: 24px; 
   border-top-right-radius: 24px;
-  background-image: url('/public/assets/icons/icon-favorites-add.svg');
+  background-image: url('/assets/icons/icon-favorites-add.svg');
   background-repeat: no-repeat;
   background-position: center;
 `;

@@ -3,7 +3,7 @@ import type { ICard } from "../../types";
 export const TEMP_DATA: ICard[] = [
   {
     promo: '-60% з ПРОМОкодом',
-    image: '/public/assets/images/image1.jpg',
+    image: '/assets/images/image1.jpg',
     order: 'Під замовлення (до 2 тижнів)',
     name: 'Серьги c сердоликом, цитрином и родолитом Тоффи на aaaaaaaa ssss ddddddd fff gggg rrrg',
     discount: '-52%',
@@ -12,7 +12,7 @@ export const TEMP_DATA: ICard[] = [
   },
   {
     promo: '-55% з ПРОМОкодом',
-    image: '/public/assets/images/image2.jpg',
+    image: '/assets/images/image2.jpg',
     order: 'Під замовлення (до 2 тижнів)',
     name: 'Колье-трансформер c сердоликом, цитрином и родолитом Тоффи на aaaaaaaa ssss ddddddd fff gggg rrrg',
     discount: '-71%',
@@ -21,7 +21,7 @@ export const TEMP_DATA: ICard[] = [
   },
   {
     promo: '-50% з ПРОМОкодом',
-    image: '/public/assets/images/image3.jpg',
+    image: '/assets/images/image3.jpg',
     order: 'Під замовлення (до 2 тижнів)',
     name: 'Щось c сердоликом, цитрином и родолитом Тоффи на aaaaaaaa ssss ddddddd fff gggg rrrg',
     discount: '-33%',
@@ -30,7 +30,7 @@ export const TEMP_DATA: ICard[] = [
   },
   {
     promo: '-40% з ПРОМОкодом',
-    image: '/public/assets/images/image2.jpg',
+    image: '/assets/images/image2.jpg',
     order: 'Під замовлення (до 2 тижнів)',
     name: 'Колье-трансформер c сердоликом, цитрином и родолитом Тоффи на aaaaaaaa ssss dddddd fff gggg rrrg',
     discount: '-44%',
@@ -40,7 +40,7 @@ export const TEMP_DATA: ICard[] = [
 
   {
     promo: '-33% з ПРОМОкодом',
-    image: '/public/assets/images/image3.jpg',
+    image: '/assets/images/image3.jpg',
     order: 'Під замовлення (до 2 тижнів)',
     name: 'Колье-трансформер c сердоликом, цитрином и родолитом Тоффи на aaaaaaaa ssss ddddsddd fff gggg rrrg',
     discount: '-52%',
@@ -50,7 +50,7 @@ export const TEMP_DATA: ICard[] = [
 
   {
     promo: '-77% з ПРОМОкодом',
-    image: '/public/assets/images/image1.jpg',
+    image: '/assets/images/image1.jpg',
     order: 'Під замовлення (до 2 тижнів)',
     name: 'Колье-трансформер c сердоликом, цитрином и родолитом Тоффи на aaaaaaaa ssss dddvvddd fff gggg rrrg',
     discount: '-52%',
@@ -60,7 +60,7 @@ export const TEMP_DATA: ICard[] = [
 
   {
     promo: '-60% з ПРОМОкодом',
-    image: '/public/assets/images/image1.jpg',
+    image: '/assets/images/image1.jpg',
     order: 'Під замовлення (до 2 тижнів)',
     name: 'Колье-трансформер c сердоликом, цитрином и родолитом Тоффи на aaaaaaaa ssss dddyhdd fff gggg rrrg',
     discount: '-52%',
@@ -69,7 +69,7 @@ export const TEMP_DATA: ICard[] = [
   },
   {
     promo: '-60% з ПРОМОкодом',
-    image: '/public/assets/images/image1.jpg',
+    image: '/assets/images/image1.jpg',
     order: 'Під замовлення (до 2 тижнів)',
     name: 'Колье-трансформер c сердоликом, цитрином и родолитом Тоффи на aaaaaaaa ssss ddddmkd fff gggg rrrg',
     discount: '-52%',

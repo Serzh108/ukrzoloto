@@ -7,10 +7,11 @@ export const HeaderWrapper = styled.div`
   align-items: center;
   width: 100%;
   margin-bottom: 16px; 
-  /* background-color: #F2F2F2; */
 `;
 
 export const HeaderDiscount = styled.div`
+      position: sticky;
+      top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,6 +24,7 @@ export const HeaderDiscount = styled.div`
   line-height: 16px;
   color: #FFFFFF;
   background-color: #000;
+  z-index: 9;
 `;
 
 export const HeaderNav = styled.div`
@@ -33,14 +35,18 @@ export const HeaderNav = styled.div`
   height: 80px;
   padding: 0 110px;
 
-/* font-family: 'Roboto Flex'; */
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-color: #000000;
+  font-family: 'Roboto'; 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
 
   background-color: #fff; 
+
+  @media screen and (max-width: 430px) {
+    display: none;
+  }
 `;
 
 export const LanguageSelect = styled.div`
@@ -72,6 +78,8 @@ export const HeaderMenu = styled.ul`
 `;
 
 export const HeaderInfoWrapper = styled.div`
+      position: sticky;
+      top: 40px;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -79,8 +87,12 @@ export const HeaderInfoWrapper = styled.div`
   height: 64px;
   gap: 24px;
   padding-left: 110px;
-  /* margin-bottom: 16px; */
   background-color: #DD2A00; 
+   z-index: 9;
+
+  @media screen and (max-width: 430px) {
+    display: none;
+  }
 `;
 
 export const Catalog = styled.button`
@@ -121,7 +133,7 @@ export const Phone = styled.div`
   color: #F2F2F2;
 
   & p:first-of-type {
-    font-family: 'Montserrat';
+    font-family: 'MontserratSemiBold';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -134,7 +146,7 @@ export const Search = styled.div`
   display: flex;
   justify-content: start;
   align-items: center;
- /* */
+ 
   & input {
     padding: 12px 8px 12px 16px;
     width: 690px;
@@ -193,3 +205,25 @@ export const Cabinet = styled.div`
   }
 `;
 
+export const MobileMenuWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+  padding: 16px;
+  margin-bottom: 8px;
+  color: #000;
+  background-color: #fff;
+
+  & div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  @media screen and (min-width: 430px) {
+    display: none;
+  }  
+`;

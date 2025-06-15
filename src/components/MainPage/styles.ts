@@ -5,7 +5,8 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  width: 1600px;   
+  max-width: 1600px;   
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 16px; 
   background-color: #F2F2F2;
@@ -20,12 +21,18 @@ export const Title = styled.div`
   margin-bottom: 40px; 
 
 & p {
-  font-family: 'Montserrat';
+  font-family: 'MontserratSemiBold';
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
   line-height: 32px;
   color: #000000;
+
+  @media screen and (max-width: 430px) {
+    font-size: 20px;
+    line-height: 24px;
+    width: 50%;
+  }
 }
 
 & button {

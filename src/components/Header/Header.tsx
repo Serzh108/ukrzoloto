@@ -6,13 +6,15 @@ import HeaderInfo from './HeaderInfo';
 import {
   HeaderDiscount,
   HeaderNav,
-  HeaderWrapper,
+  // HeaderWrapper,
   LanguageSelect,
 } from './styles';
+import MobileMenu from './MobileMenu';
 
 const Header = () => {
   return (
-    <HeaderWrapper>
+    // <HeaderWrapper>
+    <>
       <HeaderDiscount>
         <p>⭐ Знижка -53% на пару обручок тут</p>
         <img src={shevronRight} width={24} alt="arrow right" />
@@ -26,7 +28,10 @@ const Header = () => {
         <MenuHeader />
       </HeaderNav>
       <HeaderInfo />
-    </HeaderWrapper>
+      <MobileMenu />
+    </>
+
+    // </HeaderWrapper>
   );
 };
 
