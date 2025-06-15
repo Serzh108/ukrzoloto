@@ -4,15 +4,17 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
+import useCheckDeviceType from '../../hooks/hooks';
 import './styles.css';
 import Card from '../Card/Card';
 import { TEMP_DATA } from './tempData';
 
 const ActionSwiper = () => {
+  const { isMobile } = useCheckDeviceType();
   return (
     <Swiper
       spaceBetween={16}
-      slidesPerView={5}
+      slidesPerView={isMobile ? 1 : 5}
       // onSlideChange={() => console.log('slide change')}
       // onSwiper={swiper => console.log(swiper)}
       pagination={{

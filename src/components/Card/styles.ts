@@ -92,7 +92,7 @@ export const OrderBlock = styled.div`
 
 export const ProductName = styled.p`
   display: -webkit-box;
-  -webkit-line-clamp: 2;       /* скільки рядків залишити */
+  -webkit-line-clamp: 2;       
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;

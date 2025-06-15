@@ -20,4 +20,6 @@ export interface IMenu {
 
 export type MenuProps = {
   data: IMenu;
+  func: (id: string) => void;
+  openedId: string;
 };
