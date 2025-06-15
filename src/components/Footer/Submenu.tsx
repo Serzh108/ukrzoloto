@@ -6,7 +6,7 @@ import useCheckDeviceType from '../../hooks/hooks';
 
 const SubMenu: FC<MenuProps> = ({ data, func, openedId }) => {
   const { id, title, items } = data;
-  const { isMobile, isLaptop } = useCheckDeviceType();
+  const { isMobile } = useCheckDeviceType();
 
   return (
     <SubmenuWrapper>
